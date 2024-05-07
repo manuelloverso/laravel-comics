@@ -52,5 +52,17 @@
             </div>
         </div>
     </div>
-    <div class="lower-footer">Lower footer</div>
+    <div class="lower-footer py-3">
+        <div class="container text-white">
+            <div class="spacer d-flex justify-content-between">
+                <button class="btn btn-outline-primary">SIGN-UP NOW!</button>
+                <div class="socials d-flex gap-4 align-items-center">
+                    <h3>FOLLOW US</h3>
+                    <i class="fa-brands fa-facebook fa-lg"></i>
+                    <i class="fa-brands fa-instagram fa-lg"></i>
+                    <i class="fa-brands fa-twitter fa-lg"></i>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>

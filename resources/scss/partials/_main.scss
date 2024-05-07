@@ -1,5 +1,7 @@
+$dark-bg: #212529;
+
 main {
-    background-color: #212529;
+    background-color: $dark-bg;
     padding: 3rem 0;
 
     .card {
