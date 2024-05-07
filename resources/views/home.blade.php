@@ -5,7 +5,7 @@
     <div class="row">
         @foreach($comics as $comic)
         <div class="col-3 g-4">
-            <div class="card h-100">
+            <div class="card border-0 rounded-0 h-100 text-white">
                 <div class="card-img">
                     <img class="w-100 thumb" src="{{$comic['thumb']}}" alt="">
                 </div>
