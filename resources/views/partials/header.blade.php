@@ -1,11 +1,14 @@
 <header>
-    <nav>
-        <ul class="list-unstyled d-flex ">
-            <li>some link</li>
-            <li>some link</li>
-            <li>some link</li>
-            <li>some link</li>
-            <li>some link</li>
+    <nav class="container d-flex py-3 align-items-center justify-content-between">
+        <div class="logo">
+            <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="">
+        </div>
+        <ul class="list-unstyled d-flex gap-3 align-items-center m-0 fs-5 fw-semibold">
+            <li>CHARACTERS</li>
+            <li>COMICS</li>
+            <li>MOVIES</li>
+            <li>GAMES</li>
+            <li>TV</li>
         </ul>
     </nav>
     <div class="jumbotron">
