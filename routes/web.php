@@ -19,3 +19,10 @@ Route::get('/', function () {
 
     return view('home', compact('comics'));
 });
+
+Route::get('/action', function () {
+    $comics = config('comics');
+    $action_array = $comics[0];
+    //dd($action_array);
+    return view('action', compact('action_array'));
+})->name('action');

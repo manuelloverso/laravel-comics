@@ -11,6 +11,9 @@
                 </div>
                 <div class="card-body">
                     <h5 class="text-uppercase">{{$comic['series']}}</h5>
+                    @if ($comic['series'] == 'Action Comics')
+                    <a class="btn btn-outline-primary" href="{{route('action')}}">SEE MORE</a>
+                    @endif
                 </div>
             </div>
         </div>
