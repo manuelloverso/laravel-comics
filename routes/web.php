@@ -20,9 +20,8 @@ Route::get('/', function () {
     return view('home', compact('comics'));
 });
 
-Route::get('/action', function () {
-    $comics = config('comics');
-    $action_array = $comics[0];
+Route::get('/comic/{id}', function ($id) {
+    $comic = config('comics')[$id];
     //dd($action_array);
-    return view('action', compact('action_array'));
-})->name('action');
+    return view('comic', compact('comic'));
+})->name('comic');
