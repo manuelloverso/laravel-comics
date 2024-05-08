@@ -18,7 +18,7 @@ Route::get('/', function () {
     //dd($comics);
 
     return view('home', compact('comics'));
-});
+})->name('home');
 
 Route::get('/comic/{id}', function ($id) {
     $comic = config('comics')[$id];
